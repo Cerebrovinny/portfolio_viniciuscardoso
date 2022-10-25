@@ -4,10 +4,16 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 First, run the development server:
 
+To build it for production:
+
 ```bash
-npm run dev
-# or
-yarn dev
+docker build -t <tag> --target production .
+```
+
+To use it locally for development:
+```bash
+docker build -t <tag> --target development .
+docker run --rm -it --name <name> -p 3000:3000 -v ${PWD}:/app -w /app <tag>
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
