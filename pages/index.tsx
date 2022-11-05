@@ -4,6 +4,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+import About from "../components/About";
 
 const Home: NextPage = () => {
   return (
@@ -17,8 +18,13 @@ const Home: NextPage = () => {
         <Header />
 
         {/*Hero*/}
-        <section id="hero" className="snap-center">
+        <section id="hero" className="snap-start">
             <Hero />
+        </section>
+
+        {/*About*/}
+        <section id="about" className="snap-center">
+            <About />
         </section>
         <h1 className="p-10 text-red-500">awesome s</h1>
 </div>
