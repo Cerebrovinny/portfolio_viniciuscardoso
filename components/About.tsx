@@ -39,9 +39,9 @@ export default function About({}: Props) {
                     <span className="underline decoration-[#F7AB0A]/50">little</span>
                     {" "}background</h4>
                 <p className="text-base">
-                    I'm a Software Engineer based in Sao Paulo, Brazil. I'm currently contributing to
-                    many open source projects and working on my own projects. I'm a huge fan of Software Architecture and
-                    I'm always trying to learn more about it.
+                    I am a Software Engineer based in Sao Paulo, Brazil. I am currently contributing to
+                    many open source projects and working on my own projects. I am a huge fan of Software Architecture and
+                    I am always trying to learn more about it.
                 </p>
             </div>
         </motion.div>
