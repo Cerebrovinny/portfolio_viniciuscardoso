@@ -40,10 +40,10 @@ const Home: NextPage = () => {
             <Skills />
         </section>
 
-        {/*Todo projects*/}
-        {/*<section id="projects" className="snap-start">*/}
-        {/*    <Projects />*/}
-        {/*</section>*/}
+        {/*projects*/}
+        <section id="projects" className="snap-start">
+            <Projects />
+        </section>
 
         {/* Todo contact me */}
 </div>
