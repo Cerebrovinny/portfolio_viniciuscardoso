@@ -32,6 +32,7 @@ export default function Projects({}: Props) {
                         src="./Selection_024.png"
                         alt=""
                         className=""
+                        key={index}
                     />
 
                     <div className="space-y-10 px-0 md:px-10 max-w-6xl">
