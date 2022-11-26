@@ -27,8 +27,8 @@ export default function Hero({}: Props) {
                     Software Engineer
                 </h2>
                 <h1 className="text-5xl lg:text-6xl font-semibold px-10">
-                    <span className="mr-3">{text}</span>
-                    <Cursor cursorColor="#F7ABBA" />
+                    <span className="mr-3 text-gradient-copilot">{text}</span>
+                    <Cursor cursorColor="#a77bf3" />
                 </h1>
 
             </div>

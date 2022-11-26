@@ -36,7 +36,7 @@ export default function About({}: Props) {
             <div className="space-y-10 px-0 md:px-10">
                 <h4 className="text-4xl font-semibold">
                     Here is a{" "}
-                    <span className="underline decoration-[#F7AB0A]/50">little</span>
+                    <span className="underline decoration-[#a77bf3]/50">little</span>
                     {" "}background</h4>
                 <p className="text-base">
                     I am a Software Engineer based in Sao Paulo, Brazil. I am currently contributing to

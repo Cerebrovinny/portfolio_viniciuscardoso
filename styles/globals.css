@@ -5,6 +5,14 @@
 @layer components {
     .heroButton {
         @apply px-6 py-2 border border-[#242424] rounded-full uppercase text-xs
-        tracking-widest text-gray-500 transition-all hover:border-[#F7ABBA]/40 hover:text-[#F7ABBA]/40;
+        tracking-widest text-gray-500 transition-all hover:border-[#a77bf3]/40 hover:text-[#F7ABBA]/40;
+    }
+
+    .text-gradient-copilot {
+        background: -webkit-linear-gradient(300deg, #93f5ec 20%, #a77bf3 70%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-box-decoration-break: clone;
     }
 }

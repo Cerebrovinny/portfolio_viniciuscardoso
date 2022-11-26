@@ -43,7 +43,7 @@ export default function Projects({}: Props) {
 
             <div className="space-y-10 px-0 md:px-10 max-w-6xl">
               <h4 className="text-4xl font-semibold text-center">
-                <span className="underline decoration-[#F7AB0A]/50">
+                <span className="underline decoration-[#a77bf3]/50">
                   Case Study {index + 1} of {projects.length}
                 </span>{" "}
                 Tesla clone
@@ -58,7 +58,7 @@ export default function Projects({}: Props) {
       </div>
 
       <div
-        className="w-full absolute top-[30%] bg-[#F7AB0A]/10 left-0 h-[500px]
+        className="w-full absolute top-[30%] bg-[#93f5ec]/10 left-0 h-[500px]
         -skew-y-12"
       />
     </motion.div>
