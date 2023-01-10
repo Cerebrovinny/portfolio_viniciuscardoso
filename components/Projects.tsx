@@ -50,7 +50,7 @@ export default function Projects({}: Props) {
               </h4>
 
               <p className="text-lg text-center md:text-left">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                This is a  clone of Tesla website. I built this website to practice my skills in Next.js and Tailwind CSS. I used Next.js for server-side rendering and Tailwind CSS for styling. I also used Framer Motion for animations.
               </p>
             </div>
           </div>
